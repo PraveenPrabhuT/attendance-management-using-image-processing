@@ -65,7 +65,8 @@ def attach_image_fn(e):   # e represents the number of function call. for ex. e=
         filetypes=(    # different file types for different image formats
             ("png files", "*.png"),
             ("jpeg files", "*.jpeg"),
-            ("jpg files", "*.jpg"),            
+            ("jpg files", "*.jpg"),
+            ("raw files", "*.raw"),
         )
     )
     
